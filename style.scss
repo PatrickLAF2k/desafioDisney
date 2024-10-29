@@ -60,6 +60,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #1E1E1E;
+
+    @media(min-width:201px) and (max-width: 500px){ 
+      flex-direction: column;
+
+      
+    }
 }
 
 
